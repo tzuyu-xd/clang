@@ -1,4 +1,4 @@
-FROM ubuntu:groovy
+FROM ubuntu:focal
 LABEL maintainer "Ahmad Thoriq Najahi <najahi@chips-projects.xyz>"
 
 # Initial ENV
