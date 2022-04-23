@@ -17,7 +17,7 @@ jobs:
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
         dockerfile: docker/nad-clang
-        repository: tzuyu-xd/xKernel-build
+        repository: tzuyuxd/xKernel
         tags: latest
 
   proton-clang:
@@ -31,7 +31,7 @@ jobs:
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
         dockerfile: docker/proton-clang
-        repository: tzuyu-xd/xKernel-build
+        repository: tzuyuxd/xKernel
         tags: proton
         
   snapdragon-clang:
@@ -45,5 +45,5 @@ jobs:
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
         dockerfile: docker/snapdragon-clang
-        repository: tzuyu-xd/xKernel-build
+        repository: tzuyuxd/xKernel
         tags: snapdragon
